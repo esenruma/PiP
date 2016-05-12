@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0361ED91CB912180013BFDD /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0361ED81CB912180013BFDD /* EditViewController.swift */; };
+		E043C0381CBFC10000BFE006 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E043C0371CBFC10000BFE006 /* FullScreenViewController.swift */; };
+		E043C03A1CBFCFD200BFE006 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E043C0391CBFCFD200BFE006 /* SettingsViewController.swift */; };
+		E04B88991CB7FABD009FC596 /* Ideas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B88971CB7FABD009FC596 /* Ideas+CoreDataProperties.swift */; };
+		E04B889A1CB7FABD009FC596 /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B88981CB7FABD009FC596 /* Ideas.swift */; };
+		E0E0185C1CB84AC0008C06C5 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0185B1CB84AC0008C06C5 /* GridViewController.swift */; };
+		E0E0185E1CB84C95008C06C5 /* GridCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0185D1CB84C95008C06C5 /* GridCustomCell.swift */; };
+		E0E018601CB859C7008C06C5 /* ClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0185F1CB859C7008C06C5 /* ClassicViewController.swift */; };
+		E0E018621CB85BBA008C06C5 /* ClassicCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E018611CB85BBA008C06C5 /* ClassicCustomCell.swift */; };
 		E0FB83B81CB66E0300DE7618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83B71CB66E0300DE7618 /* AppDelegate.swift */; };
 		E0FB83BA1CB66E0300DE7618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83B91CB66E0300DE7618 /* ViewController.swift */; };
 		E0FB83BD1CB66E0300DE7618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FB83BB1CB66E0300DE7618 /* Main.storyboard */; };
 		E0FB83C01CB66E0300DE7618 /* PiP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83BE1CB66E0300DE7618 /* PiP.xcdatamodeld */; };
 		E0FB83C21CB66E0300DE7618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FB83C11CB66E0300DE7618 /* Assets.xcassets */; };
 		E0FB83C51CB66E0300DE7618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FB83C31CB66E0300DE7618 /* LaunchScreen.storyboard */; };
+		E0FB83CD1CB683FB00DE7618 /* HomeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83CC1CB683FB00DE7618 /* HomeCustomCell.swift */; };
+		E0FB83CF1CB6907B00DE7618 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83CE1CB6907B00DE7618 /* DetailsViewController.swift */; };
+		E0FB83D51CB6970F00DE7618 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB83D41CB6970F00DE7618 /* AddingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0361ED81CB912180013BFDD /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		E043C0371CBFC10000BFE006 /* FullScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
+		E043C0391CBFCFD200BFE006 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E04B88971CB7FABD009FC596 /* Ideas+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Ideas+CoreDataProperties.swift"; path = "../Ideas+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E04B88981CB7FABD009FC596 /* Ideas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ideas.swift; path = ../Ideas.swift; sourceTree = "<group>"; };
+		E0E0185B1CB84AC0008C06C5 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		E0E0185D1CB84C95008C06C5 /* GridCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCustomCell.swift; sourceTree = "<group>"; };
+		E0E0185F1CB859C7008C06C5 /* ClassicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicViewController.swift; sourceTree = "<group>"; };
+		E0E018611CB85BBA008C06C5 /* ClassicCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicCustomCell.swift; sourceTree = "<group>"; };
 		E0FB83B41CB66E0300DE7618 /* PiP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FB83B71CB66E0300DE7618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FB83B91CB66E0300DE7618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,9 @@
 		E0FB83C11CB66E0300DE7618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0FB83C41CB66E0300DE7618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0FB83C61CB66E0300DE7618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FB83CC1CB683FB00DE7618 /* HomeCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCustomCell.swift; sourceTree = "<group>"; };
+		E0FB83CE1CB6907B00DE7618 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E0FB83D41CB6970F00DE7618 /* AddingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +82,23 @@
 			children = (
 				E0FB83B71CB66E0300DE7618 /* AppDelegate.swift */,
 				E0FB83B91CB66E0300DE7618 /* ViewController.swift */,
+				E0FB83CC1CB683FB00DE7618 /* HomeCustomCell.swift */,
+				E0FB83D41CB6970F00DE7618 /* AddingViewController.swift */,
+				E043C0391CBFCFD200BFE006 /* SettingsViewController.swift */,
+				E0FB83CE1CB6907B00DE7618 /* DetailsViewController.swift */,
+				E043C0371CBFC10000BFE006 /* FullScreenViewController.swift */,
+				E0361ED81CB912180013BFDD /* EditViewController.swift */,
+				E0E0185F1CB859C7008C06C5 /* ClassicViewController.swift */,
+				E0E018611CB85BBA008C06C5 /* ClassicCustomCell.swift */,
+				E0E0185B1CB84AC0008C06C5 /* GridViewController.swift */,
+				E0E0185D1CB84C95008C06C5 /* GridCustomCell.swift */,
 				E0FB83BB1CB66E0300DE7618 /* Main.storyboard */,
 				E0FB83C11CB66E0300DE7618 /* Assets.xcassets */,
 				E0FB83C31CB66E0300DE7618 /* LaunchScreen.storyboard */,
 				E0FB83C61CB66E0300DE7618 /* Info.plist */,
 				E0FB83BE1CB66E0300DE7618 /* PiP.xcdatamodeld */,
+				E04B88971CB7FABD009FC596 /* Ideas+CoreDataProperties.swift */,
+				E04B88981CB7FABD009FC596 /* Ideas.swift */,
 			);
 			path = PiP;
 			sourceTree = "<group>";
@@ -99,6 +135,7 @@
 				TargetAttributes = {
 					E0FB83B31CB66E0300DE7618 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8YV2VULFFS;
 					};
 				};
 			};
@@ -138,9 +175,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0361ED91CB912180013BFDD /* EditViewController.swift in Sources */,
+				E0E0185E1CB84C95008C06C5 /* GridCustomCell.swift in Sources */,
 				E0FB83C01CB66E0300DE7618 /* PiP.xcdatamodeld in Sources */,
 				E0FB83BA1CB66E0300DE7618 /* ViewController.swift in Sources */,
+				E04B88991CB7FABD009FC596 /* Ideas+CoreDataProperties.swift in Sources */,
+				E043C0381CBFC10000BFE006 /* FullScreenViewController.swift in Sources */,
+				E0FB83D51CB6970F00DE7618 /* AddingViewController.swift in Sources */,
+				E04B889A1CB7FABD009FC596 /* Ideas.swift in Sources */,
+				E043C03A1CBFCFD200BFE006 /* SettingsViewController.swift in Sources */,
 				E0FB83B81CB66E0300DE7618 /* AppDelegate.swift in Sources */,
+				E0E018621CB85BBA008C06C5 /* ClassicCustomCell.swift in Sources */,
+				E0E018601CB859C7008C06C5 /* ClassicViewController.swift in Sources */,
+				E0FB83CD1CB683FB00DE7618 /* HomeCustomCell.swift in Sources */,
+				E0FB83CF1CB6907B00DE7618 /* DetailsViewController.swift in Sources */,
+				E0E0185C1CB84AC0008C06C5 /* GridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PiP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esenruma.PiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -266,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PiP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.esenruma.PiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -292,6 +347,7 @@
 				E0FB83CB1CB66E0300DE7618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
